@@ -2,6 +2,11 @@
 
 This is more a journey where I attempt to learn how to do some basic speech recognition
 
+This is the actual delivery I made.
+
+TODO: 
+* Add results and such
+
 TODO:
 * Fix notebook to be useable
 * Enable actual speech recognition, not just phoneme recogniton
