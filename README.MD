@@ -3,7 +3,7 @@
 ## Table of Contents
 + [About](#about)
 + [Prerequisies](#prerequisites)
-+ [Usage](#usage)
++ [Results](#results)
 
 ## About <a name = "about"></a>
 This is more a journey where I attempt to learn how to do some basic speech recognition. The goal of this project was to learn to do basic speech recogntion, in this case phoneme recognition. How different types of neural networks change the results, and their sizes. The "goal" if we can call it that was to see how small the neural networks could be while still getting good enough results. So that we could potentially use it in small embedded systems or the like.
@@ -12,11 +12,17 @@ This project was a project in the subject TDT4310 and this is the actual deliver
 
 ## Prerequisites <a name = "prerequisites"></a>
 Numpy
+
 sklearn
+
 matplotlib
+
 pandas
+
 python_speech_features
+
 scipy
+
 Tensorlfow 2.2.0
 
 The only special piece of software used is the levenshtein algorithm which can be found [here](https://github.com/ztane/python-Levenshtein/) and installed by 
@@ -24,7 +30,7 @@ The only special piece of software used is the levenshtein algorithm which can b
 pip install python-Levenshtein
 ```
 
-## Results <a name = "usage"></a>
+## Results <a name = "results"></a>
 There were done multiple experiments on different neural networks, but they were either CNNs or simple DNNs.
 The error rate used in this project is the PER (phoneme error rate). This can be calculated using the Levenshtein algotihm, which is done here.
 
