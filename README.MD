@@ -2,28 +2,24 @@
 
 ## Table of Contents
 + [About](#about)
-+ [Getting Started](#getting_started)
++ [Prerequisies](#prerequisites)
 + [Usage](#usage)
-+ [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
 This is more a journey where I attempt to learn how to do some basic speech recognition. The goal of this project was to learn to do basic speech recogntion, in this case phoneme recognition. How different types of neural networks change the results, and their sizes. The "goal" if we can call it that was to see how small the neural networks could be while still getting good enough results. So that we could potentially use it in small embedded systems or the like.
 
 This project was a project in the subject TDT4310 and this is the actual delivery I made.
 
-## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+## Prerequisites <a name = "prerequisites"></a>
+Numpy
+sklearn
+matplotlib
+pandas
+python_speech_features
+scipy
+Tensorlfow 2.2.0
 
-### Prerequisites
-
-This project uses:
-
-Keras with Tensorlfow 2.2.0
-https://github.com/ztane/python-Levenshtein/
-
-### Installing
-
-The only special piece of software used is the levenshtein algorithm which can be installed by 
+The only special piece of software used is the levenshtein algorithm which can be found [here](https://github.com/ztane/python-Levenshtein/) and installed by 
 ```
 pip install python-Levenshtein
 ```
@@ -47,8 +43,8 @@ As we can see the CNN based architecture is seemingly a lot better than the DNN 
 
 
 
-The results are quite lacking, and is in all likelihood from bad pre-processing. A project similar project, https://yh1008.github.io/DNN-HMM/slides#/19, has quite a lot better results, with just about the same neural network. This other project used Kaldi, and therefore more standardised pre-processing techniques, and it seems like it would have helped considering everything else seemed to be the same.
+The results are quite lacking, and is in all likelihood from bad pre-processing. A project similar project, [yh1008](https://yh1008.github.io/DNN-HMM/slides#/19), has quite a lot better results, with just about the same neural network. This other project used Kaldi, and therefore more standardised pre-processing techniques, and it seems like it would have helped considering everything else seemed to be the same.
 
 
 ### Thanks to
-kyleobo. I borrowed the README template from there https://github.com/kylelobo/The-Documentation-Compendium/blob/master/en/README_TEMPLATES/Minimal.md
+kyleobo. I borrowed the README template from [here](https://github.com/kylelobo/The-Documentation-Compendium/blob/master/en/README_TEMPLATES/Minimal.md)
